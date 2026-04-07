@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EMTHC 页面（附资助备注）</title>
+  <style>
+    html, body { height: 100%; margin: 0; }
+    .wrap { position: fixed; inset: 0; }
+    iframe {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%; border: 0;
+    }
+    .badge {
+      position: fixed; top: 12px; right: 12px; z-index: 9999;
+      background: linear-gradient(145deg, rgba(89,193,255,.15), rgba(132,255,163,.12));
+      border: 1px solid rgba(29,42,58,.6);
+      border-radius: 12px; padding: 10px 14px;
+      backdrop-filter: blur(6px);
+      font-size: 12px; line-height: 1.5; color: #9fb0c0;
+      max-width: 320px;
+    }
+    .badge b { color: #e6edf3; }
+    /* 可选：在移动端收起为一行图标，点击展开 */
+    @media (max-width: 480px){
+      .badge { font-size: 11px; max-width: 260px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <iframe src="https://emthc.scmzbl.com/" allow="fullscreen"></iframe>
+    <div class="badge">
+      四川音乐学院大学生创新创业训练计划项目：<br/>
+      智“汇”民族——面向青少年的线上民族共同体意识教育平台<br/>
+      <b>2025国家级项目</b>，项目编号 <b>202510654009</b> 联合研发
+    </div>
+  </div>
+</body>
+</html>
